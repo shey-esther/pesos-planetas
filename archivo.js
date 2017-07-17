@@ -18,8 +18,16 @@ pMarte = pMarte.toFixed(2);
 var pSaturno = peso * 0.93;
 pSaturno = pSaturno.toFixed(2);
 
+var pNeptuno = peso * 1.38;
+pNeptuno = pNeptuno.toFixed(2);
 
-alert("Tu peso en Mercurio es: "+pMercurio+"\n"+ "Tu peso en Venus es: "+pVenus+"\n"+"Tu peso en Jupiter es: " +pJupiter +"\n"+"Tu peso en Urano es: "+pUrano+"\n"+ "tu peso en Marte es: "+pMarte+"\n"+ "Tu peso en Saturno es: "+pSaturno);
+var pLuna = peso * 0.17;
+pLuna =pLuna.toFixed(2);
 
+
+
+alert("Tu peso en Mercurio es: "+pMercurio+"\n"+ "Tu peso en Venus es: "+pVenus+"\n"+"Tu peso en Jupiter es: " +pJupiter +"\n"+"Tu peso en Urano es: "+pUrano+"\n"+ "tu peso en Marte es: "+pMarte+"\n"+ "Tu peso en Saturno es: "+pSaturno
+
+	+"\n"+"Tu peso en Neptuno es: "+pNeptuno+"\n"+ "Tu peso en la Luna es: " +pLuna);
 }
 calcularPeso();
